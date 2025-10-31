@@ -27,7 +27,7 @@ public class Main {
    
    public static void main(String[] args) {
       Main object1 = new Main();
-      boolean printYes = object1.checkDate(2, 20, 3, 20);
+      boolean printYes = object1.checkDate(2, 25, 3, 20);
       if (printYes == true) {
       System.out.println("Date is before");
       }
