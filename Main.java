@@ -34,29 +34,9 @@ public class Main {
       boolean printYes2 = object2.checkDate(10, 1, 2, 25);
       boolean printYes3 = object3.checkDate(8, 15, 8, 15);
       boolean printYes4 = object4.checkDate(8, 15, 8, 16);
-      if (printYes == true) {
-      System.out.println("Date #1 is before");
-      }
-      else {
-      System.out.println("Date #1 isn't before");
-      }
-      if (printYes2 == true) {
-      System.out.println("Date #2 is before");
-      }
-      else {
-      System.out.println("Date #2 isn't before");
-      }
-      if (printYes3 == true) {
-      System.out.println("Date #3 is before");
-      }
-      else {
-      System.out.println("Date #3 isn't before");
-      }
-      if (printYes4 == true) {
-      System.out.println("Date #4 is before");
-      }
-      else {
-      System.out.println("Date #4 isn't before");
-      }
+      System.out.println(printYes);
+      System.out.println(printYes2);
+      System.out.println(printYes3);
+      System.out.println(printYes4);
    }
 }
