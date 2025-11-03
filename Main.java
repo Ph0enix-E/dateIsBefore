@@ -27,12 +27,36 @@ public class Main {
    
    public static void main(String[] args) {
       Main object1 = new Main();
-      boolean printYes = object1.checkDate(2, 25, 3, 20);
+      Main object2 = new Main();
+      Main object3 = new Main();
+      Main object4 = new Main();
+      boolean printYes = object1.checkDate(6, 3, 9, 20);
+      boolean printYes2 = object2.checkDate(10, 1, 2, 25);
+      boolean printYes3 = object3.checkDate(8, 15, 8, 15);
+      boolean printYes4 = object4.checkDate(8, 15, 8, 16);
       if (printYes == true) {
-      System.out.println("Date is before");
+      System.out.println("Date #1 is before");
       }
       else {
-      System.out.println("Date isn't before");
+      System.out.println("Date #1 isn't before");
+      }
+      if (printYes2 == true) {
+      System.out.println("Date #2 is before");
+      }
+      else {
+      System.out.println("Date #2 isn't before");
+      }
+      if (printYes3 == true) {
+      System.out.println("Date #3 is before");
+      }
+      else {
+      System.out.println("Date #3 isn't before");
+      }
+      if (printYes4 == true) {
+      System.out.println("Date #4 is before");
+      }
+      else {
+      System.out.println("Date #4 isn't before");
       }
    }
 }
